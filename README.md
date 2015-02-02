@@ -26,5 +26,5 @@ as this will allow for much less verbose code.
     $hook = new MyHook();
     
     $manager->add(
-        new HookConfiguration(HookConfiguration::ACTION, 'publish_post', $hook
+        new HookConfiguration(HookConfiguration::ACTION, 'publish_post', $hook)
     );
